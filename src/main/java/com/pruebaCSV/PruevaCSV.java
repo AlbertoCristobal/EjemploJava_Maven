@@ -16,7 +16,7 @@ No utiliza ningun gestor de dependencias(maven)
 
         public static void main(String[] args) {
             LectorCSV miLector = new LectorCSV();
-            miLector.leeCSV("./datos/pokemon.csv");
+            miLector.leeCSV("./src/main/resources/datos/pokemon.csv");
         }
 
     }
